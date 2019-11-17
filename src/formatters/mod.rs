@@ -10,9 +10,9 @@ use crate::{
     console::{ConsoleTestState},
 };
 
-mod pretty;
-mod json;
-mod terse;
+pub mod pretty;
+pub mod json;
+pub mod terse;
 
 pub(crate) use self::pretty::PrettyFormatter;
 pub(crate) use self::json::JsonFormatter;

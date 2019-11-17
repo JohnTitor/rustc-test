@@ -63,15 +63,15 @@ use std::{
 
 pub mod stats;
 pub mod bench;
-mod formatters;
-mod cli;
-mod console;
-mod event;
-mod helpers;
-mod time;
-mod types;
-mod options;
-mod test_result;
+pub mod formatters;
+pub mod cli;
+pub mod console;
+pub mod event;
+pub mod helpers;
+pub mod time;
+pub mod types;
+pub mod options;
+pub mod test_result;
 
 #[cfg(test)]
 mod tests;
